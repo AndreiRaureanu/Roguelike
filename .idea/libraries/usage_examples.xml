@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="usage_examples">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Desktop/libjcsi-master/doc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/libjcsi-master/distro/usage_examples" />
+      <root url="file://$USER_HOME$/Desktop/libjcsi-master/src" />
+    </SOURCES>
+  </library>
+</component>
