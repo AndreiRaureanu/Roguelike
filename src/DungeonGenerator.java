@@ -26,7 +26,6 @@ public class DungeonGenerator {
         this.dungeon = new String[getRows()][getColumns()];
         generateMap();
         generateHallways(getLengthOfHall(), getHallSize());
-        //clearLists();
         refineDungeon();
         fillDungeonBorders();
     }
@@ -200,11 +199,6 @@ public class DungeonGenerator {
             }
         }
     }
-
-//    public void clearLists() {
-//        Set<Tile> finalWall = new HashSet<>(getWallSet());
-//        Set<Tile> finalFloor = new HashSet<>(getFloorSet());
-//    }
 
     public void drawDungeon(Player player) {
         getWallSet().stream().distinct().collect(Collectors.toList());
